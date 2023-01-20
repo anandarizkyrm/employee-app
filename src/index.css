@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+div,
+pre {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #dbdbdb;
+}
+.layout {
+  max-width: 67rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.width {
+  max-width: 67rem;
+}
+
+.input-color {
+  background-color: #212121;
+}
+
+.gray-1 {
+  color: #dbdbdb;
+}
